@@ -19,9 +19,9 @@ place(X, Y) :- write(X), write("'s place is "), write(Y), nl, number(X, Y).
 
 number(X,Y) :- write(X), write("'s number is "), write(Y), nl.
 
-
-
 number(X, 2) :- place(X, 1). 
+
+
 
 start() :- write("Order: "), query([gary, barry, larry, harry]).
 
