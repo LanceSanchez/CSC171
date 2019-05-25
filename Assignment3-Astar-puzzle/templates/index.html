@@ -120,10 +120,10 @@ function sleep(milliseconds) {
 	<br/>
 	<button id="begin" onclick="start({{ initial | safe }}, {{ moves | safe }})" class="btn btn-default" style="margin-left:351px; background-color: blue;">Solve</button>
 	<button id="begin" onclick="location.reload()" class="btn btn-default" style="background-color: blue;">Again</button>
-	<p style="margin-left:290px; margin-top:20px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">A* Moves: {{ moves }}.</span></p>
+	<p style="margin-left:290px; margin-top:20px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">A* Shortest path: {{ moves }}.</span></p>
 	<p style="margin-left:290px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">A* Runtime: {{ sec_astar }} seconds</span></p>
 	<p style="margin-left:290px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">A* Number of Explored Nodes: {{ astar }}</span></p>
-	<p style="margin-left:290px; margin-top:3px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">BFS Moves: {{ moves2 }}.</span></p>
+	<p style="margin-left:290px; margin-top:3px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">BFS Shortest Path: {{ moves2 }}.</span></p>
 	<p style="margin-left:290px; margin-top:3px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">BFS Runtime: {{ sec_bfs }} seconds</span></p>
 	<p style="margin-left:290px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">BFS Number of Explored Nodes: {{ bfs }}</span></p>
 

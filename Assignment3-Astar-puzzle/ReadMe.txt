@@ -9,4 +9,4 @@ Running the code:
 Instructions to play:
 1. Click the "Solve" button to shuffle the tiles, and then the puzzle will automatically start solving itself.
 2. Click the "Again" button to reload the page, and then you can click the "Solve" button again to reshuffle the tiles in a different order and the puzzle will then automatically start solving itself.
-3. The moves, runtime, and number of explored nodes of both the A* and BFS are shown below the puzzle.
+3. The shortest path, runtime, and number of explored nodes of both the A* and BFS are shown below the puzzle.
