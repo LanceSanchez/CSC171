@@ -1,6 +1,7 @@
 
-***Important: Python 3 must be used to run this code. 
-***Pygame is needed to run this program***
+***Important: Python 3 must be used to run this program.***
+***Pygame version 1.9.3 is needed to run this program.***
+
 Running the code:
 1. So first, please install pygame to run this program
 2. Run the python file "run.py" on command prompt or pycharm.
